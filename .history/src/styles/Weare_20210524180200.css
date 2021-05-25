@@ -1,0 +1,26 @@
+.weare_container {
+  background: black;
+}
+.weareimg {
+  width: 70%;
+  height: auto;
+}
+
+.image_container {
+  width: 70%;
+  height: auto;
+  float: left;
+}
+
+.info_container {
+  float: right;
+  text-align: center;
+  margin-top: 0;
+  position: absolute;
+  left: 180px;
+  top: 420px;
+  min-height: 250px;
+  width: 20%;
+  background-color: white;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+}

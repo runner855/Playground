@@ -1,0 +1,47 @@
+.main-content {
+  flex: 1;
+}
+.sidebar {
+  flex: 0 0 300px;
+  background: black;
+}
+
+@media (min-width: 56.25em) {
+  .flex-container {
+    display: flex;
+  }
+}
+.img-weare {
+  width: 100%;
+  height: auto;
+}
+
+.weare-p,
+.weare-h1,
+.weare-button {
+  color: white;
+}
+
+.weare-h1 {
+  font-weight: bold;
+}
+
+.weare-button {
+  text-align: center;
+  border: white solid 1px;
+}
+
+.weare-btn-container {
+  text-align: center;
+}
+
+html {
+  box-sizing: border-box;
+  font-size: 100%;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}

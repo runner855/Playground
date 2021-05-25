@@ -1,0 +1,16 @@
+img {
+  width: 70%;
+  height: auto;
+}
+
+.image_container {
+  width: 70%;
+  height: auto;
+  float: left;
+}
+
+.info_container {
+  float: right;
+  text-align: center;
+  margin-top: 0;
+}

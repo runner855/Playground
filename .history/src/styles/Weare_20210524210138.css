@@ -1,0 +1,12 @@
+.main-content {
+  flex: 1;
+}
+.sidebar {
+  flex: 0 0 300px;
+}
+
+@media (min-width: 56.25em) {
+  .flex-container {
+    display: flex;
+  }
+}

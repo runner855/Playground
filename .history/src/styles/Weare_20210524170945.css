@@ -1,0 +1,10 @@
+img {
+  width: 100%;
+  height: auto;
+}
+
+.image_container {
+  width: 70%;
+  height: auto;
+  float: left;
+}

@@ -1,0 +1,30 @@
+.wedo_container {
+  width: 100%;
+}
+
+.wedo_info_container,
+.wedo_img_container {
+  position: relative;
+  top: 50%;
+  left: 50%;
+  padding: 1rem;
+  text-align: center;
+  transform: translate(-50%, -50%);
+}
+
+h1 {
+  font-size: 1.75rem;
+  margin: 0 0 0.75rem 0;
+}
+
+/* Pattern styles */
+.wedo_left {
+  background-color: #ff9e2c;
+  float: left;
+  width: 50%;
+}
+.wedo_right {
+  background-color: #b6701e;
+  float: left;
+  width: 50%;
+}

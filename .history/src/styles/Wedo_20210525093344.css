@@ -1,0 +1,50 @@
+.wedo_flex_container {
+  font-size: 0;
+}
+
+.wedo_main-content {
+  flex: 0 0 300px;
+}
+
+.wedo_sidebar {
+  flex: 1;
+}
+
+@media (min-width: 56.25em) {
+  .wedo_flex-container {
+    display: flex;
+  }
+}
+.img-wedo {
+  width: 100%;
+  height: auto;
+  margin: 0;
+}
+
+.wedo-p,
+.wedo-h1,
+.wedo-button {
+  color: #000;
+}
+
+.wedo-h1 {
+  font-weight: bold;
+  text-align: left;
+  padding: 1.5rem 0rem 0.5rem 3.125rem;
+}
+
+.wedo-p {
+  padding: 0rem 0rem 0.5rem 3.125rem;
+}
+
+.wedo-button {
+  text-align: left;
+  border: #000 solid 1px;
+  padding: 0.4rem 0.4rem 0.4rem 0.4rem;
+  text-decoration: none;
+}
+
+.wedo-btn-container {
+  text-align: left;
+  padding: 1rem 0rem 0rem 3.125rem;
+}

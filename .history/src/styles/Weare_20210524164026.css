@@ -1,0 +1,15 @@
+img {
+  width: 100%;
+  height: auto;
+}
+
+.image_container {
+  width: 100%;
+  height: auto;
+  float: left;
+}
+
+.info_container {
+  display: flex;
+  float: right;
+}

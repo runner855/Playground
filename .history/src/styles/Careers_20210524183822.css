@@ -1,0 +1,13 @@
+.careers_container {
+  background: black;
+}
+.careers_im {
+  width: 70%;
+  height: auto;
+}
+
+.careers_info_container {
+  float: right;
+  text-align: center;
+  margin-top: 0;
+}

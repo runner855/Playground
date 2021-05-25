@@ -1,0 +1,17 @@
+.main-content {
+  flex: 1;
+}
+.sidebar {
+  flex: 0 0 300px;
+  background: black;
+}
+
+@media (min-width: 56.25em) {
+  .flex-container {
+    display: flex;
+  }
+}
+.img-weare {
+  width: 100%;
+  height: auto;
+}

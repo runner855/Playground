@@ -1,0 +1,61 @@
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+
+.address,
+p,
+h1 {
+  text-align: left;
+  padding: 1em 1em 1em 1em;
+  color: #fff;
+}
+
+.address {
+  flex: 1;
+  /* display: flex; */
+}
+.contact-form {
+  flex: 0 0 300px;
+  background: black;
+  text-align: center;
+  padding-top: 2rem;
+}
+
+@media (min-width: 56.25em) {
+  .contactus {
+    display: flex;
+  }
+  .contact-form {
+    justify-content: center;
+  }
+}
+
+.contactus {
+  background: #000;
+}
+
+::placeholder {
+  color: #fff;
+  opacity: 1;
+}
+
+:-ms-input-placeholder {
+  color: #fff;
+}
+
+::-ms-input-placeholder {
+  color: #fff;
+}
+
+input,
+textarea {
+  background: #000;
+  border: 1px solid #fff;
+}
+
+.button_container {
+  padding-top: 2rem;
+  padding-right: 5rem;
+}

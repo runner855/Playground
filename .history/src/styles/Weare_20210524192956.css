@@ -1,0 +1,14 @@
+.weare_container {
+  background: black;
+}
+.weare_img {
+  width: 70%;
+  height: auto;
+}
+
+.weare_info_container {
+  overflow: hidden;
+  float: right;
+  text-align: center;
+  margin-top: 0;
+}

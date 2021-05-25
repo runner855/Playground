@@ -1,0 +1,9 @@
+.address {
+  background: #000;
+  display: flex;
+}
+
+h1,
+p {
+  color: #fff;
+}

@@ -1,0 +1,21 @@
+/* @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap"); */
+
+@font-face {
+  font-family: "Gotham";
+  src: local("Gotham-Bold"), url(../fonts/Gotham-Bold) format("truetype");
+}
+
+@font-face {
+  font-family: "Gotham";
+  src: local("Gotham-Book"), url(../fonts/Gotham-Book) format("truetype");
+}
+
+@font-face {
+  font-family: "Gotham";
+  src: local("Gotham-Medium"), url(../fonts/Gotham-Medium) format("truetype");
+}
+
+body {
+  margin: 0;
+  font-family: "Montserrat", sans-serif;
+}

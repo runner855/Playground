@@ -1,0 +1,25 @@
+img {
+  width: 100%;
+  height: auto;
+}
+
+.image_container {
+  width: 70%;
+  height: auto;
+  float: left;
+}
+
+.info_container {
+  text-align: center;
+  background: black;
+}
+
+.info_container p,
+h1 {
+  color: white;
+  padding-top: 50px;
+}
+
+.button_container {
+  padding-bottom: 210px;
+}

@@ -1,0 +1,28 @@
+.weare-img-content {
+  flex: 1;
+}
+.info-weare {
+  flex: 0 0 300px;
+  background: black;
+}
+
+@media (min-width: 56.25em) {
+  .flex-container {
+    display: flex;
+  }
+}
+.img-weare {
+  width: 70%;
+  height: auto;
+}
+
+.info-weare h2,
+a,
+p {
+  color: white;
+}
+
+.weare-container {
+  margin: 0;
+  padding: 0;
+}

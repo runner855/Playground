@@ -1,0 +1,10 @@
+.address {
+  background: #000;
+  margin-bottom: 0.1em;
+  text-align: left;
+}
+
+h1,
+p {
+  color: #fff;
+}

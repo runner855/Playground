@@ -1,0 +1,91 @@
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+
+.contactus {
+  background: #000;
+}
+.contact-form {
+  text-align: right;
+
+  color: #000;
+  margin: 30px;
+  display: center;
+}
+
+button {
+  text-align: center;
+  outline: none;
+  width: 70px;
+  background-color: #fff;
+  color: #000;
+}
+
+.email {
+  padding: 12px 20px;
+  margin: 8px;
+  box-sizing: border-box;
+}
+
+.contact-form {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+input textarea {
+  border: solid white 1em;
+  background-color: black;
+}
+
+/* input {
+  width: 200px;
+  height: 26px;
+  justify-content: center;
+} */
+input #email {
+  width: 600px;
+  height: 26px;
+  justify-content: center;
+}
+
+textarea {
+  display: flex;
+  justify-content: right;
+  width: 400px;
+}
+
+/* address */
+
+.email-container {
+  display: flex;
+  justify-content: right;
+}
+.message-container {
+  display: flex;
+  justify-content: right;
+}
+
+.name-lastname {
+  display: flex;
+  justify-content: center;
+}
+
+.address,
+p,
+h1 {
+  text-align: left;
+  padding: 1em 1em 1em 1em;
+  color: #fff;
+}
+
+@media (min-width: 56.25em) {
+  .address,
+  p,
+  h1 {
+    text-align: center;
+  }
+}

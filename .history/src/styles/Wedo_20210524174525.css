@@ -1,0 +1,19 @@
+.wedo_container {
+  background: black;
+}
+.wedoimg {
+  width: 70%;
+  height: auto;
+}
+
+.wedoimage_container {
+  width: 70%;
+  height: auto;
+  float: right;
+}
+
+.wedoinfo_container {
+  float: left;
+  text-align: center;
+  margin-top: 0;
+}
